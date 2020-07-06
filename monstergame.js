@@ -49,12 +49,9 @@ $(document).ready(function () {
     })
 
    var thunder1 = setInterval(function () {
-        $('#lightning1').hide(0);
-        $('#lightning2').hide(0);
-        $('#lightning3').hide(0);
+      
         $('#lightning1').fadeIn(4000);
         $('#lightning2').fadeIn(2000);
         $('#lightning3').fadeIn(3000);
-        },4000 )
-    x.play();
+        },4000,x.play() )
 })
